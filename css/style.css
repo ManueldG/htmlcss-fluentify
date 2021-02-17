@@ -34,6 +34,9 @@ h4 {
     float: left;
 }
 
+main .container{
+    width:80%;
+}
 
 .jumbotron {
     height: 600px;
@@ -51,11 +54,34 @@ h4 {
     background: #0d325a;
 } 
 
-header .nav-center {
-    display:inline-block;
-    list-style: none;
-
+.main-header .logo {
+    width:15%;
+    background: rgba(0,0,0,.5)
 }
+
+.main-header .logo img {
+    vertical-align:middle;
+}
+
+.main-header .nav-center {
+    width: 40%;
+    background: rgba(0,0,0,.5);
+}
+
+.menuIL li {
+    display: inline-block;
+    list-style:none;
+}
+
+
+
+.main-header .nav-right {
+    width:45%;
+    background:rgba(0,0,0,.5);
+    text-align: right;
+}
+
+
 
 .main-header .logo img {
    height: 30px;
