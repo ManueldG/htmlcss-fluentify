@@ -34,6 +34,10 @@ h4 {
     float: left;
 }
 
+.w50 {
+    width: 50%;
+}
+
 
 .main-header {
     line-height: 60px;
@@ -130,5 +134,9 @@ h4 {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+}
 
+.jumbotron .jtext h1{
+    font-size:44px;
+    color: #fff;
 }
