@@ -33,3 +33,24 @@ h4 {
 .float-left {
     float: left;
 }
+
+
+.jumbotron {
+    height: 600px;
+    background: #0d325a;
+    background-image: url(../img/background-header.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+.main-header .logo img {
+   height: 30px;
+   background: #0d325a;    
+}
+
+
+
+
+    
