@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 10px;
     color: #8b8b8b;
 }
 
@@ -56,37 +56,45 @@ main .container{
 
 .main-header .logo {
     width:15%;
-    background: rgba(0,0,0,.5)
+    background: rgba(0,0,0,.5);
 }
+
 
 .main-header .logo img {
-    vertical-align:middle;
+   vertical-align:middle;
+   height: 30px;
+   background: #0d325a;    
 }
-
 .main-header .nav-center {
-    width: 40%;
+    width: 45%;
     background: rgba(0,0,0,.5);
 }
 
 .menuIL li {
     display: inline-block;
     list-style:none;
+    margin-right: 20px;
+}
+
+.menuIL li:last-child {
+    display: inline-block;
+    list-style:none;
+    margin-right: 0;
 }
 
 
 
+
+
 .main-header .nav-right {
-    width:45%;
+    width:35%;
     background:rgba(0,0,0,.5);
     text-align: right;
 }
 
 
 
-.main-header .logo img {
-   height: 30px;
-   background: #0d325a;    
-}
+
 
 
 
