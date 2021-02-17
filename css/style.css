@@ -82,15 +82,16 @@ main .container{
     margin-right: 0;
 }
 
-
-
-
-
 .main-header .nav-right {
     width:35%;
     background:rgba(0,0,0,.5);
     text-align: right;
 }
+
+.main-header a {
+    text-decoration: none;
+    color:white;
+} 
 
 
 
