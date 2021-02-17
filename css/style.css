@@ -102,5 +102,9 @@ main .container{
     border-radius: 5px;
     background: #00800000;
     border: 1px solid white;    
-    line-height: 40px;
+    line-height: 20px;
+}
+
+.main-header a .btn {
+    line-height: 1;
 }
