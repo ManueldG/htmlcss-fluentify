@@ -44,6 +44,18 @@ h4 {
     background-position: right bottom;
 }
 
+.main-header {
+    line-height 45px;
+    text-transform: uppercase;
+    font-size:10;
+    background: #0d325a;
+} 
+
+header .nav-center {
+    display:inline-block;
+    list-style: none;
+
+}
 
 .main-header .logo img {
    height: 30px;
