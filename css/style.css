@@ -19,3 +19,17 @@ h4 {
 
 /* Utilities*/
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display:table;
+}
+
+.float-left {
+    float: left;
+}
