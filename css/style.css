@@ -210,6 +210,10 @@ section.duecolonne .w50 {
     padding: 0 80px;
 }
 
+section.duecolonne img {
+    width: 500px;
+}
+
 /*footer*/
 footer {
     background-color:#d3d3d3;
