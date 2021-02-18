@@ -45,7 +45,7 @@ h4 {
 }
 
 .w33 {
-    width: calc( 100% / 3 - 20px );
+    width: calc(100% / 3);
 }
 
 
@@ -175,23 +175,35 @@ section.greybox h3 {
 }
 .trecolonne,.duecolonne {
     text-align: center;
-    margin: 0 auto;
+    margin: 35px auto;
 
 }
 
 section.trecolonne{
-    padding: 20px 126px;
+    padding: 20px 450px;
+}
+
+.trecolonne .left, 
+.trecolonne .center, 
+.trecolonne .right {
+    margin: 0 30px;
 }
 
 section.trecolonne img {
     height:190px;
     }
+
 .trecolonne hr {
-    width:87px;    
+    width:87px;  
+}
+
+.trecolonne h2 {
+    font-size:30px;
+    color: #7cbb01;
 }
 
 section.trecolonne .w33 {
-    margin: 0 auto;
+    margin: 35px auto;
 }
 
 section.duecolonne .w50 {
