@@ -219,6 +219,20 @@ section.duecolonne h2 {
     font-size:37px;
     color:black;
     text-align: left;
+    margin-bottom:30px;
+}
+section.duecolonne h3 {
+    font-size:22px;
+    color:#808080;
+    text-align: left;
+    margin-bottom:30px;
+}
+
+section.duecolonne a {
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
 }
 
 section.duecolonne .left  {
