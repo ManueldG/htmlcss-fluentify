@@ -149,10 +149,15 @@ h4 {
     padding: 20px;
 }
 
-section.greybox *{
+section.greybox {
+    padding-top: 5px;
     text-align: center;
     height: 46px;
     background-color:#d3d3d3;
+}
+
+ection.greybox h1 {
+    color: black;
 }
 
 .trecolonne,.duecolonne {
@@ -162,7 +167,10 @@ section.greybox *{
 }
 
 .trecolonne hr {
-    margin: 0 auto;
-    
+    margin: 0 auto;    
+}
+
+section.duecolonne .w50 {
+    padding: 0 80px;
 }
 
