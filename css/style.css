@@ -39,7 +39,7 @@ h4 {
 }
 
 .w33 {
-    width: calc(100%/3);
+    width: calc( 100% / 3 - 20px );
 }
 
 
