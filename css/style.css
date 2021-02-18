@@ -215,12 +215,16 @@ section.trecolonne .w33 {
     margin: 35px auto;
 }
 
-section.duecolonne .w50 {
-    padding: 25px 174px 25px 509px;
+section.duecolonne h2 {
+    font-size:36px;
 }
 
-section.duecolonne img {
-    
+section.duecolonne .left  {
+    padding: 25px 85px 25px 509px;
+}
+
+section.duecolonne .right {
+    padding: 25px 509px 25px 85px;
 }
 
 /*footer*/
