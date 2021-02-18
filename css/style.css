@@ -249,10 +249,12 @@ footer {
 }
 
 footer div.container {
-    
+    height:70px;    
 }
 
-footer.w50 {
+footer .w50:last-child li{
+    list-style:none;
+    display: inline-block;
 
 }
 
