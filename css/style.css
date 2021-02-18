@@ -26,7 +26,7 @@ h4 {
 /* Utilities*/
 
 .container {
-    width: 1200px;
+    width: 1500px;
     margin: 0 auto;
 }
 
@@ -50,11 +50,11 @@ h4 {
 
 
 .main-header {
-    line-height: 60px;
+    line-height: 100px;
     text-transform: uppercase;
-    font-size:10px;
+    font-size: 10px;
     background: #0d325a;
-} 
+}
 
 .main-header .logo {
     width:15%;
@@ -156,18 +156,22 @@ h4 {
 }
 
 section.greybox {
-    text-align: center;
-    height: 46px;
+    height: 170px;
     background-color: #d3d3d3;
     margin-bottom: 16px;
-    padding: 5px 0px;
+    padding: 80px 0px;
+    text-align: center;
 }
-section.greybox h1
+
 
 section.greybox h2 {
+    text-size:50px;
     color: black;
 }
-
+section.greybox h3 {
+    text-size:40px;
+    color: #808080;
+}
 .trecolonne,.duecolonne {
     text-align: center;
     margin: 0 auto;
