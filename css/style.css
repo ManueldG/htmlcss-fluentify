@@ -165,11 +165,11 @@ section.greybox {
 
 
 section.greybox h2 {
-    text-size:50px;
+    font-size:35px;
     color: black;
 }
 section.greybox h3 {
-    text-size:40px;
+    font-size: 20px;
     color: #808080;
 }
 .trecolonne,.duecolonne {
