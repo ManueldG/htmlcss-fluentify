@@ -38,6 +38,10 @@ h4 {
     width: 50%;
 }
 
+.w33 {
+    width: calc(100%/3);
+}
+
 
 .main-header {
     line-height: 60px;
@@ -125,7 +129,7 @@ h4 {
 .jumbotron .container {
     position: relative;
     height:100%;
-    background: #00000088;
+    /*background: #00000088;*/
 }
 
 .jumbotron .jtext {
@@ -145,7 +149,13 @@ h4 {
     padding: 20px;
 }
 
-section .greybox {
+section.greybox *{
     text-align: center;
-    height: 100%;
+    height: 46px;
+    background-color:#d3d3d3;
+}
+
+.colonne {
+    
+
 }
