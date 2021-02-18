@@ -156,17 +156,18 @@ h4 {
 }
 
 section.greybox {
-    height: 170px;
+    height: 174px;
     background-color: #d3d3d3;
     margin-bottom: 16px;
-    padding: 80px 0px;
+    padding: 48px 0px;
     text-align: center;
 }
 
 
 section.greybox h2 {
-    font-size:35px;
+    font-size: 35px;
     color: black;
+    margin-bottom: 6px;
 }
 section.greybox h3 {
     font-size: 24px;
