@@ -216,7 +216,9 @@ section.trecolonne .w33 {
 }
 
 section.duecolonne h2 {
-    font-size:36px;
+    font-size:37px;
+    color:black;
+    text-align: left;
 }
 
 section.duecolonne .left  {
