@@ -179,16 +179,19 @@ section.greybox h3 {
 
 }
 
+section.trecolonne{
+    padding: 20px 126px;
+}
+
+section.trecolonne img {
+    height:190px;
+    }
 .trecolonne hr {
     margin: 0 auto;    
 }
 
 section.duecolonne .w50 {
     padding: 0 80px;
-}
-
-section.duecolonne img {
-
 }
 
 /*footer*/
