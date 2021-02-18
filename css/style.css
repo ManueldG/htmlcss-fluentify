@@ -25,6 +25,7 @@ h3,
 h4 {
     font-weight: 500;
 }
+/*generale end*/
 
 /* Utilities*/
 
@@ -50,9 +51,9 @@ h4 {
 .w33 {
     width: calc(100% / 3);
 }
+/* Utilities end*/
 
 /*Header*/
-
 .main-header {
     line-height: 100px;
     text-transform: uppercase;
@@ -73,6 +74,12 @@ h4 {
     width: 45%;
 }
 
+.main-header a {
+    text-decoration: none;
+    color:white;
+} 
+/* header end*/
+
 /*Menu*/
 .menuIL li {
     display: inline-block;
@@ -91,10 +98,7 @@ h4 {
     text-align: right;
 }
 
-.main-header a {
-    text-decoration: none;
-    color:white;
-} 
+
 
 /*Button*/
 .btn {
@@ -121,8 +125,7 @@ h4 {
     border: #7cbb0100;
     background: #7cbb01;
 }
-
-
+/*btn end*/
 
 /*main*/
 
@@ -157,10 +160,13 @@ h4 {
     color: #fff;
 }
 
+/* jumbotron end */
+
 .btn-large {
     padding: 20px;
 }
 
+/*greybox*/
 section.greybox {
     height: 174px;
     background-color: #d3d3d3;
@@ -168,7 +174,6 @@ section.greybox {
     padding: 48px 0px;
     text-align: center;
 }
-
 
 section.greybox h2 {
     font-size: 35px;
@@ -179,15 +184,14 @@ section.greybox h3 {
     font-size: 24px;
     color: #808080;
 }
+/*greybox end*/
 
-
+/*colonne*/
 .trecolonne,.duecolonne {
     text-align: center;
     margin: 35px auto;
-
 }
 
-/*colonne*/
 section.trecolonne{
     padding: 20px 450px;
 }
@@ -221,6 +225,7 @@ section.duecolonne h2 {
     text-align: left;
     margin-bottom:30px;
 }
+
 section.duecolonne h3 {
     font-size:22px;
     color:#808080;
@@ -242,6 +247,7 @@ section.duecolonne .left  {
 section.duecolonne .right {
     padding: 25px 509px 25px 85px;
 }
+/*colonne end*/
 
 /*footer*/
 footer {
@@ -282,8 +288,6 @@ footer .w50 li:last-child {
 }
 
 /* dropdown  */
-
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -293,12 +297,10 @@ footer .w50 li:last-child {
     box-shadow: 2px 2px 2px 2px darkolivegreen;
 }
 
-
-
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #d3d3d3;
     min-width: 86px;
     box-shadow: 8px 15px 10px 7px rgba(0,0,0,0.2);
     padding: 12px 2px;
@@ -312,14 +314,21 @@ footer .w50 li:last-child {
     width: 112px;
 }
 
-.dropdown-content p {
-    
+.dropdown-content p a {
+    background-color:#d3d3d3;
+    text-decoration: none;    
+}
+.dropdown-content p a:hover {
+    background-color: #556b2f88;
+    text-decoration: none;    
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* dropdown end*/
 
+/* help */
 footer .help {
     position: fixed;
     width: 100px;
@@ -335,6 +344,10 @@ footer .help {
     color: white;
     text-align: center;
 }
+
+/* help end*/
+
+/*footer end*/
 
 
 
