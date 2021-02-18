@@ -3,11 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    background-color: black;
+}
 
 body {
+    width: 2400px;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     color: #8b8b8b;
+    background-color:#ffffff;
 }
 
 h1,
@@ -46,7 +52,7 @@ h4 {
 .main-header {
     line-height: 60px;
     text-transform: uppercase;
-    font-size:10;
+    font-size:10px;
     background: #0d325a;
 } 
 
@@ -117,7 +123,7 @@ h4 {
 
 /*jumbotron*/
 .jumbotron {
-    height: 480px;
+    height: 580px;
     background: #0d325a;
     background-image: url(../img/background-header.png);
     background-size: 50%;
@@ -150,13 +156,15 @@ h4 {
 }
 
 section.greybox {
-    padding-top: 5px;
     text-align: center;
     height: 46px;
-    background-color:#d3d3d3;
+    background-color: #d3d3d3;
+    margin-bottom: 16px;
+    padding: 5px 0px;
 }
+section.greybox h1
 
-ection.greybox h1 {
+section.greybox h2 {
     color: black;
 }
 
@@ -172,5 +180,22 @@ ection.greybox h1 {
 
 section.duecolonne .w50 {
     padding: 0 80px;
+}
+
+section.duecolonne img {
+
+}
+
+/*footer*/
+footer {
+    background-color:#d3d3d3;
+}
+
+footer div.container {
+    
+}
+
+footer.w50 {
+
 }
 
