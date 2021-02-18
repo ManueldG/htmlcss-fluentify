@@ -1,3 +1,6 @@
+
+/*Generale*/
+
 *  {
     padding: 0;
     margin: 0;
@@ -48,6 +51,7 @@ h4 {
     width: calc(100% / 3);
 }
 
+/*Header*/
 
 .main-header {
     line-height: 100px;
@@ -69,6 +73,7 @@ h4 {
     width: 45%;
 }
 
+/*Menu*/
 .menuIL li {
     display: inline-block;
     list-style:none;
@@ -91,6 +96,7 @@ h4 {
     color:white;
 } 
 
+/*Button*/
 .btn {
     display: inline-block;
     min-width: 100px;
@@ -173,12 +179,15 @@ section.greybox h3 {
     font-size: 24px;
     color: #808080;
 }
+
+
 .trecolonne,.duecolonne {
     text-align: center;
     margin: 35px auto;
 
 }
 
+/*colonne*/
 section.trecolonne{
     padding: 20px 450px;
 }
