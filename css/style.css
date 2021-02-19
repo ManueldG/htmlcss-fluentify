@@ -313,7 +313,7 @@ footer .w50 li:last-child {
     position: absolute;
     background-color: #d3d3d3;
     min-width: 86px;
-    box-shadow: 8px 15px 0px 7px rgba(0,0,0,0.2);
+    box-shadow: 9px -7px 10px 0px rgba(0,0,0,0.2);
     padding: 12px 2px;
     z-index: 1;
     line-height: 29px;
@@ -321,7 +321,9 @@ footer .w50 li:last-child {
     font-size: 16px;
     top: 0;
     border-radius: 5px 5px 0 0;
-    border: 1px solid black;
+    border-left: 1px solid #00000029;
+    border-top: 1px solid #00000038;
+    border-right: 1px solid black;
     width: 112px;
 }
 
