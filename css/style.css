@@ -305,7 +305,7 @@ footer .w50 li:last-child {
 }
 
 .dropdown span {
-    box-shadow: 2px 2px 2px 2px darkolivegreen;
+    box-shadow: 1px 4px 5px -2px darkolivegreen;
 }
 
 .dropdown-content {
@@ -313,7 +313,7 @@ footer .w50 li:last-child {
     position: absolute;
     background-color: #d3d3d3;
     min-width: 86px;
-    box-shadow: 8px 15px 10px 7px rgba(0,0,0,0.2);
+    box-shadow: 8px 15px 0px 7px rgba(0,0,0,0.2);
     padding: 12px 2px;
     z-index: 1;
     line-height: 29px;
