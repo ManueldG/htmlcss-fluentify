@@ -300,8 +300,10 @@ footer .w50 li:last-child {
 
 /* dropdown  */
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
+    height: 34px;
+    line-height: 200px;
 }
 
 .dropdown span {
