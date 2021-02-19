@@ -213,6 +213,7 @@ section.trecolonne img {
 .trecolonne h2 {
     font-size:30px;
     color: #7cbb01;
+    margin-top: 10px;
 }
 
 section.trecolonne .w33 {
@@ -221,6 +222,12 @@ section.trecolonne .w33 {
 section.trecolonne .w33.centrale{
     margin-top: 72px;
 }
+
+section.trecolonne .w33 .text{
+    margin:0 50px;
+    font-size:20px;
+}
+
 
 
 section.duecolonne h2 {
