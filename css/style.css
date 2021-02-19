@@ -218,6 +218,10 @@ section.trecolonne img {
 section.trecolonne .w33 {
     margin: 35px auto;
 }
+section.trecolonne .w33.centrale{
+    margin-top: 72px;
+}
+
 
 section.duecolonne h2 {
     font-size:37px;
